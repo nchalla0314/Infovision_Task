@@ -13,3 +13,4 @@
     lineinfile:
       path: "/home/<username>/.ssh/authorized_keys"
       line: "{{ pubkey }}"
+
